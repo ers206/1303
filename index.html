@@ -15,6 +15,7 @@
   <!-- Google Fonts Roboto -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
   <!-- MDB -->
+  <link rel="stylesheet" href="src/scss/custom/_styles.scss" />
   <link rel="stylesheet" href="css/mdb.min.css" />
 
 
@@ -54,12 +55,12 @@
 
         </ul>
 
-        <ul class="navbar-nav d-flex flex-row">
+        <ul class="navbar-nav d-flex flex-row ">
           <!-- Icons -->
           <!-- makes sense for the language button to be on top with icons added below div it did nothing yet https://www.geeksforgeeks.org/add-google-translate-button-webpage/  -->
           <div id="google_translate_element"></div>
-          <li class="nav-item me-3 me-lg-0">
-            <a class="nav-link" href="tel:+9207230695" rel="nofollow" target="_blank">
+          <li class="nav-item me-3 me-lg-0 ">
+            <a class="nav-link"   href="tel:+6082121243" rel="nofollow" target="_blank">
               <i class="fas fa-phone text-primary fa-2x"></i>
             </a>
           </li>
@@ -141,7 +142,60 @@
       </p>
     </div>
 
-
+    <!-- ******************************************************************************* -->
+    <div class="accordion accordion-borderless" id="accordionFlushExampleX">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOneX">
+          <button class="accordion-button" type="button" data-mdb-toggle="collapse"
+            data-mdb-target="#flush-collapseOneX" aria-expanded="true" aria-controls="flush-collapseOneX">
+            Accordion Item #1
+          </button>
+        </h2>
+        <div id="flush-collapseOneX" class="accordion-collapse collapse show"
+          aria-labelledby="flush-headingOneX" data-mdb-parent="#accordionFlushExampleX">
+          <div class="accordion-body">
+            Placeholder content for this accordion, which is intended to demonstrate the
+            <code>.accordion-flush</code> class. This is the first item's accordion body.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwoX">
+          <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+            data-mdb-target="#flush-collapseTwoX" aria-expanded="false" aria-controls="flush-collapseTwoX">
+            Accordion Item #2
+          </button>
+        </h2>
+        <div id="flush-collapseTwoX" class="accordion-collapse collapse" aria-labelledby="flush-headingTwoX"
+          data-mdb-parent="#accordionFlushExampleX">
+          <div class="accordion-body">
+            Placeholder content for this accordion, which is intended to demonstrate the
+            <code>.accordion-flush</code> class. This is the second item's accordion body.
+            Let's imagine this being filled with some actual content.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThreeX">
+          <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+            data-mdb-target="#flush-collapseThreeX" aria-expanded="false" aria-controls="flush-collapseThreeX">
+            Accordion Item #3
+          </button>
+        </h2>
+        <div id="flush-collapseThreeX" class="accordion-collapse collapse" aria-labelledby="flush-headingThreeX"
+          data-mdb-parent="#accordionFlushExampleX">
+          <div class="accordion-body">
+            Placeholder content for this accordion, which is intended to demonstrate the
+            <code>.accordion-flush</code> class. This is the third item's accordion body.
+            Nothing more exciting happening here in terms of content, but just filling up
+            the space to make it look, at least at first glance, a bit more representative
+            of how this would look in a real-world application.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ********************************************************************* -->
+    
     <div id="our-services" class="our-services">
       <h2 class="text-center">OUR SERVICES</h2>
 

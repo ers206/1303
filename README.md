@@ -16,3 +16,9 @@
 "https://translate.google.com/translate_a/element.js?
 cb=googleTranslateElementInit">
     </script>
+
+    scss not working its connected in head of html 
+    work on accordians in services
+    review section
+    modale for b and a
+
