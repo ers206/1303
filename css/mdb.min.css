@@ -59,10 +59,10 @@ border-radius: 25px;
   font-size: calc(80% + 1vw + 1vh);
 }
 
-#serviceLabel {
+/* #serviceLabel {
   align-items: center;
   background-color: white;
-}
+} */
 /* #reviews {
   
   margin-top: 15;
