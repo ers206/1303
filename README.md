@@ -26,6 +26,7 @@ cb=googleTranslateElementInit">
 https://www.thumbtack.com/wi/madison/roofing/1303-construction/service/386779353498886145 
 60 images on this site make sure they are work that they did
 
+do they need people to work there? maybe have a seperate email link for that if needed
 
 all review are 5 stars
  
