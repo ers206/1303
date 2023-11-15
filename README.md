@@ -7,7 +7,7 @@ To create a website for 1303 Construction. They wanted something that is low mai
 
 ## Description
 
-I created a site to showcase the customers work and services. The site also has a section highlighting some of their reviews, a desrption of the companys 
+I created a site to showcase the customers work and services. The site also has a section highlighting some of their reviews.
 
 ## Built with
 * HTML
