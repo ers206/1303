@@ -37,11 +37,7 @@
       font-size: 10px;
     }
   }
-  @media screen and (max-width: 600px) {
-    footer {
-      bottom: 0; /* or adjust as needed */
-    }
-  }
+
 .noview, .noview1, .noview2 {
   visibility: hidden;
 }
