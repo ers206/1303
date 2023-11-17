@@ -39,7 +39,7 @@
   }
   @media screen and (max-width: 600px) {
     footer {
-      height: auto; /* or adjust as needed */
+      bottom: 0; /* or adjust as needed */
     }
   }
 .noview, .noview1, .noview2 {
